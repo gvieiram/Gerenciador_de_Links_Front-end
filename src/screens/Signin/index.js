@@ -1,18 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from "react-redux";
-import { signIn } from "./SigninActions";
+import { signIn } from "./SignInActions";
 
 const SignIn = (props) => {
-  const {account, signIn} = props;
+  const { signIn } = props;
 
   const submitHandler = (event) => {
     event.preventDefault();
 
     signIn({email: 'gustavoafcavai@gmail.com', password: '123456'})
   };
-
-  console.log('*** SignIn.Account', account);
 
   return (
     <div className="container h-100 pt-5">

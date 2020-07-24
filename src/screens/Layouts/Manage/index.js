@@ -18,7 +18,7 @@ const Layout = ({ children, signOut, account }) => {
       <nav className="navbar navbar-expand-lg bg-primary text-light">
         <div className="container d-flex w-100 justify-content-between">
           <div>
-            <spam>VOLTAR</spam>
+            <span>VOLTAR</span>
           </div>
           <div className="text-center">
             <strong>Links</strong>
